@@ -1,0 +1,22 @@
+.container{
+    background-color: rgb(16, 16, 16, .9);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: space-between;
+    border-radius: 50%;
+}

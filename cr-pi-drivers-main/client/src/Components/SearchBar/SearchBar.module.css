@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    height: 20px;
+    width: 500px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.search {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    width: 500px;
+    margin: 25px;
+    align-items: center;
+    border: 10px;
+    border-color: black;
+}
+
+.buscar{
+    display: flex;
+}
+
+.button1{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+}

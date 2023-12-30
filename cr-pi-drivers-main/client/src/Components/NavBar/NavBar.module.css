@@ -1,0 +1,46 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.buttonHome {
+    display: flex;
+    height: 50px;
+    width: 60px;
+    font-weight: bold;
+    justify-content: center;
+    margin: 35px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.buttonForm {
+    display: flex;
+    height: auto;
+    width: auto;
+    font-weight: bold;
+    justify-content: center;
+    margin: 35px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.img2{
+    max-height: 300px;
+    width: auto;
+    display: flex;
+    overflow: hidden;
+}

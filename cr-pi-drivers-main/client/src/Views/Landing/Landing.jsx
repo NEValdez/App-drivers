@@ -1,11 +1,15 @@
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import style from './Landing.module.css'
 
 const Landing = () => {
-    const history = useHistory();
+    const navigate = useNavigate();
     return (
         <div className={style.container}>
-            <p>Landing</p>
+            <img className={style.imgLand} src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-0.png" alt=""/>
+            <button className={style.buttonLand} onClick={()=> navigate('/home')}>HOME
+            </button>            
         </div>
     )
 }
+
+export default Landing;
